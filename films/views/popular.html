@@ -1,0 +1,22 @@
+
+
+
+     <div>
+          <h1 class="title_upComing"> Popular Films</h1>
+
+         <form action="" method="POST" class="form-inline filterFilm" role="form">
+
+          <div class="form-group">
+            <label for=""> Filter:</label>
+            <input ng-model="queryName" type="text" class="form-control" id="" placeholder="Filter by title...">
+          </div>
+
+       </form>
+        
+          <div class=" col-sm-6 col-md-3 description " ng-repeat="film in popular  | filter: { title : queryName }">
+            <img src="{{ 'http://image.tmdb.org/t/p/w185' + film.poster_path }}" >
+              <h2 class="titleFilms">{{ film.title }}</h2>
+               <p class="dateFilms">{{ film.release_date }} </p>
+
+          </div>
+      </div>

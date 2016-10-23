@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css?family=Shrikhand');
+
+
+header, footer, .navbar-default {
+	background: #2F3838;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: #F3FDFF;
+}
+
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #2F3838;
+	background-color: #76FFB5;	
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: #76FFB5;	
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+		background-color: #76FFB5;	
+
+}
+
+.navbar-default .navbar-brand{
+	font-weight: bold;
+	color: white;
+}
+
+footer {
+	margin-top: 30px;
+	padding-top: 10px;
+	height: 100px;
+}
+
+
+.description{
+	height: 420px;
+	overflow: auto;
+	margin-top: 22px;
+}
+
+.title_upComing{
+	padding-left: 15px;
+	margin-bottom: 10px;
+	font-family: Shrikhand;
+	color: #76FFB5;
+	font-size: 40px;
+}
+
+
+.titleFilms{
+	color:  #2F3838;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 2px;
+}
+
+p.dateFilms{
+	color: #76FFB5;
+	font-family: Shrikhand;
+	font-size: 15px;
+}
+
+
+.filterFilm{
+	padding-left: 15px;
+
+}
+
+
+.filterFilm label {
+	padding-right: 10px;
+}
+
+form{
+	margin-bottom: 25px;
+}
+
+
+.presentation{
+	color:  #76FFB5;
+	font-family: Shrikhand;
+	font-weight: bold;
+	font-size: 150px;
+	line-height: 140px;
+	margin-top: 50px;
+}
+
+
+.subtitle{
+
+	color:   #2F3838;
+	font-family: Shrikhand;
+	font-weight: bold;
+	font-size: 50px;
+	margin-bottom:  50px;
+
+}
